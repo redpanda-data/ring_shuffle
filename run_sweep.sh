@@ -16,7 +16,7 @@ echo "Build OK: $BIN"
 echo
 
 THREADS=(1 2 4 8 16 32 64 72)
-ROW_SIZES=(32 64 128 256)
+ROW_SIZES=(8 16 32 64 128 256)
 RING_KS=(1 2 3 4)
 DISTS=(flat normal)
 ROWS=8192
